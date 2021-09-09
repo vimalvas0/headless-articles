@@ -11,6 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "directus": "^9.0.0-rc.92",
+    "dotenv": "^10.0.0",
+    "node-fetch": "^2.6.1",
     "pg": "^8.7.1"
   }
 }
