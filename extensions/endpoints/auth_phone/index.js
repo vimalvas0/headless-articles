@@ -8,7 +8,7 @@ module.exports = function registerEndpoint(router) {
     router.post('/register', register);
 
 
-    // Handling errors
+    // Handling errors ################################################S
     router.use((err, res, req, next)=>{
         if(err)
         {
