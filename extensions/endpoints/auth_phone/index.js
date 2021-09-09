@@ -6,8 +6,8 @@ const client = require('./models/db');
 module.exports = function registerEndpoint(router) {
 	router.get('/', (req, res) => res.send('Hello, World!'));
     router.post('/register', register);
-
-
+    
+    
     // Handling errors ################################################S
     router.use((err, res, req, next)=>{
         if(err)
